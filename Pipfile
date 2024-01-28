@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+temporalio = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "v0.23.4a0"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"
